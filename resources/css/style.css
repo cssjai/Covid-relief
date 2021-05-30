@@ -130,7 +130,7 @@ header {
 }
 
 .logo-small {
-    height: 70px;
+    height: 60px;
     float: left;
     margin: 5px 0;
     width: auto;
@@ -181,11 +181,11 @@ header {
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
     color: #fff;
-    padding: 25px 0px;
+    padding: 22px 0px;
 }
 
 .sticky .main-nav {
-    margin-top: 30px;
+    margin-top: 23px;
 }
 
 .sticky .logo-small {
@@ -446,6 +446,14 @@ footer p {
     float: right;
 }
 
+.social-links p {
+    display: inline-block;
+}
+
+.social-links:first-child li a{
+    margin-left: 10px;
+}
+
 .footer-nav li,
 .social-links li {
     display: inline-block;
@@ -502,4 +510,32 @@ footer p {
 .ion-logo-instagram {
     -webkit-transition: color 0.2s;
     transition: color 0.2s;
+}
+
+/*  ----------------------------------------------------------------------  */
+/*  ANIMATIONS */
+/*  ----------------------------------------------------------------------  */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6,
+.js--wp-7,
+.js--wp-8,
+.js--wp-9 {
+    opacity: 0;
+}
+
+.js--wp-1.animated,
+.js--wp-2.animated,
+.js--wp-3.animated,
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated,
+.js--wp-7.animated,
+.js--wp-8.animated,
+.js--wp-9.animated {
+    opacity: 1;
 }
